@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Livvic', sans-serif;
+    height: 100%;
+    background-color: rgb(181, 223, 175);
+}
+
+.text-icon {
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    color: rgb(104, 65, 33);
+    padding-bottom: 4rem;
+}
+
+.header-div {
+    justify-content: space-between;
+}
+
+.site-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+.site-item {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    opacity: 0.8;
+    align-items: center;
+    color: rgb(34, 112, 69);
+   
+}
+
+.site-img {
+    width: 7rem;
+    height: 7rem;
+}
+
+.site-link{
+  padding-bottom: 3rem;
+}
+ 
+.site-link:hover {
+  opacity: 0.8;
+  transform: 4s;
+}
